@@ -81,4 +81,3 @@ def favoriteDrink():
     else:
         print("Abwarten und Tee trinken...")
 
-favoriteDrink()
