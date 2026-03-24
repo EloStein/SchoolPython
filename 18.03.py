@@ -6,41 +6,41 @@ def containsJa(value):
         return False
 
 # Nummer A1
-def checkFive():
-    number = int(input())
-    if number == 5:
+def A1():
+    zahl = int(input("Gib eine auf 5 zu prüfende Zahl ein:"))
+    if zahl == 5:
         print("Input hat den Wert 5")
     else:
         print("Input hat nicht den Wert 5")
 
 # Nummer A2
-def inRange():
-    rangeStart = float(input("Gib den Anfang des Zahlenraums ein"))
-    rangeEnd = float(input("Gib den Anfang des Zahlenraums ein"))
-    number = float(input("Gib deine Zahl ein"))
-    if rangeEnd >= number >= rangeStart:
+def A2():
+    anfang = float(input("Gib den Anfang des Zahlenraums ein:"))
+    ende = float(input("Gib den Anfang des Zahlenraums ein:"))
+    zahl = float(input("Gib deine Zahl ein:"))
+    if ende >= zahl >= anfang:
        print("Input Number in Range enthalten")
     else:
         print("Input Number nicht in Range enthalten")
 
 # Nummer B
-def sugarOrMilk():
-    milk = str(input("Willst du Milch in den Kaffee? [Ja/Nein]"))
-    sugar = str(input("Willst du Zucker in den Kaffee? [Ja/Nein]"))
+def B():
+    milch = str(input("Willst du Milch in den Kaffee? [Ja/Nein]"))
+    zucker = str(input("Willst du Zucker in den Kaffee? [Ja/Nein]"))
 
-    if containsJa(milk):
-        if containsJa(sugar):
+    if containsJa(milch):
+        if containsJa(zucker):
             print("Kaffee mit Milch und Zucker, immer gern")
         else:
             print("Kaffee mit Milch kommt sofort")
     else:
-        if containsJa(sugar):
+        if containsJa(zucker):
             print("Ok Kaffee nur mit Zucker kommt sofort ")
         else:
             print("Ok du magst ihn Schwarz, warum nicht")
 
 # Nummer C1
-def whatIsIt():
+def C1():
     alive = input("Lebt es?")
     if containsJa(alive):
         carnivore = input("Frisst es Fleisch?")
@@ -60,24 +60,38 @@ def whatIsIt():
                 print("Es ist der Boden")
 
 # Nummer C2
-def favoriteDrink():
-    answer = input("Saft oder Softdrink?")
-    if answer == "Saft":
-        answer = input("Apfelsaft, O-Saft? oder Traubensaft")
-        if answer == "Apfelsaft":
+def C2():
+    antwort = input("Saft oder Softdrink?")
+    if antwort == "Saft":
+        antwort = input("Apfelsaft, O-Saft? oder Traubensaft")
+        if antwort == "Apfelsaft":
             print("Gute Wahl, Äpfel sind lecker")
-        elif answer == "O-Saft":
+        elif antwort == "O-Saft":
             print("O-Saft, Vitamin pur!")
         else:
             print("Trauben, beste Wahl!")
-    elif answer == "Softdrink":
-        answer = input("Cola, Fanta oder Sprite")
-        if answer == "Cola":
+    elif antwort == "Softdrink":
+        antwort = input("Cola, Fanta oder Sprite")
+        if antwort == "Cola":
             print("The Original Taste!")
-        elif answer == "Fanta":
+        elif antwort == "Fanta":
             print("Mhh Fanta...")
         else:
             print("Sprite, mein Favorite!")
     else:
         print("Abwarten und Tee trinken...")
 
+print("Hallo, um eine Aufgabe abzurufen einfach A1, A2, B, C1, C2 eingeben und 'Enter' drücken")
+aufgabe = str(input())
+if aufgabe == "A1":
+    A1()
+elif aufgabe == "A2":
+    A2()
+elif aufgabe == "B":
+    B()
+elif aufgabe == "C1":
+    C1()
+elif aufgabe == "C2":
+    C2()
+else:
+    print("Angefragte Aufgabe nicht gefunden")

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e53e40a8-22a8-49a5-8a73-d4ddd9152e25" name="Changes" comment="Lul Sos">
-      <change afterPath="$PROJECT_DIR$/OopTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OopTest2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/18.03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.18.03.executor": "Run",
     "Python.OopTest.executor": "Run",
     "Python.OopTest2.executor": "Run",
     "Python.test.executor": "Run",
