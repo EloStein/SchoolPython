@@ -41,20 +41,20 @@ def B():
 
 # Nummer C1
 def C1():
-    alive = input("Lebt es?")
-    if containsJa(alive):
+    lebend = input("Lebt es?")
+    if containsJa(lebend):
         carnivore = input("Frisst es Fleisch?")
         if containsJa(carnivore):
             print("Es ist ein Tiger")
         else:
             print("Es ist ein Esel")
     else:
-        drivable = input("Kann es fahren?")
-        if containsJa(drivable):
+        fahrbar = input("Kann es fahren?")
+        if containsJa(fahrbar):
             print("Es ist ein Auto")
         else:
-            edible = input("Kann man es essen?")
-            if containsJa(edible):
+            essbar = input("Kann man es essen?")
+            if containsJa(essbar):
                 print("Es ist Gemüse")
             else:
                 print("Es ist der Boden")
