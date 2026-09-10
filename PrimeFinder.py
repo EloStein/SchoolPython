@@ -1,6 +1,6 @@
 from math import sqrt
 
-
+# Checks for Prime Number
 def isPrime(num):
 
     if not num.is_integer():
