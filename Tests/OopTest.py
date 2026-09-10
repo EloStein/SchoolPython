@@ -14,5 +14,3 @@ class Student(Person):
     def smartGreet(self):
         print("Hello, my name is " + self.name + ", I am a " + self.title)
 
-ole = Student("Ole", 16, "Ingenieur")
-ole.smartGreet()

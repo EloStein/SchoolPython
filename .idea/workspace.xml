@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e53e40a8-22a8-49a5-8a73-d4ddd9152e25" name="Changes" comment="Hab den crazy aaaaasss Prime Finder geaddet für Mr. Huhan" />
+    <list default="true" id="e53e40a8-22a8-49a5-8a73-d4ddd9152e25" name="Changes" comment="Hab den crazy aaaaasss Prime Finder geaddet für Mr. Huhan">
+      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OopTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/OopTest.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.18.03.executor": "Run",
+    "Python.Main.executor": "Run",
     "Python.OopTest.executor": "Run",
     "Python.OopTest2.executor": "Run",
     "Python.test.executor": "Run",
@@ -109,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789060841437</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Hab den crazy aaaaasss Prime Finder geaddet für Mr. Huhan">
+      <option name="closed" value="true" />
+      <created>1789060964351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789060964351</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
