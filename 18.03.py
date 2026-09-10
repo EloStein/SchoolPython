@@ -16,7 +16,7 @@ def A1():
 # Nummer A2
 def A2():
     anfang = float(input("Gib den Anfang des Zahlenraums ein:"))
-    ende = float(input("Gib den Anfang des Zahlenraums ein:"))
+    ende = float(input("Gib das Ende des Zahlenraums ein:"))
     zahl = float(input("Gib deine Zahl ein:"))
     if ende >= zahl >= anfang:
        print("Input Number in Range enthalten")
