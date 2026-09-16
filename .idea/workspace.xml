@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e53e40a8-22a8-49a5-8a73-d4ddd9152e25" name="Changes" comment="Hab den crazy aaaaasss Prime Finder geaddet für Mr. Huhan">
-      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OopTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/OopTest.py" afterDir="false" />
+    <list default="true" id="e53e40a8-22a8-49a5-8a73-d4ddd9152e25" name="Changes" comment="Hab mysteriöse dinge gemacht hehe">
+      <change afterPath="$PROJECT_DIR$/Aufgaben/stein_ole__kalender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aufgaben/stein_ole__kalender_minimalistisch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,12 @@
     &quot;assignee&quot;: &quot;EloStein&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/EloStein/SchoolPython",
-    "accountId": "c51edbe1-6529-416d-b334-93e62c3e2059"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EloStein/SchoolPython&quot;,
+    &quot;accountId&quot;: &quot;c51edbe1-6529-416d-b334-93e62c3e2059&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -49,14 +50,28 @@
     "Python.Main.executor": "Run",
     "Python.OopTest.executor": "Run",
     "Python.OopTest2.executor": "Run",
+    "Python.PrimeFinder.executor": "Run",
+    "Python.stein_ole__kalender.executor": "Run",
+    "Python.stein_ole__kalender_minimalistisch.executor": "Run",
+    "Python.stein_ole__kalender_shorten.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/ole/Projekte/PycharmProjects/SchoolPython/Aufgaben",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "settings.editor.splitter.proportion": "0.28134558"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Aufgaben" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests" />
+      <recent name="$PROJECT_DIR$/Aufgaben" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -121,13 +136,22 @@
       <option name="project" value="LOCAL" />
       <updated>1789060964351</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Hab mysteriöse dinge gemacht hehe">
+      <option name="closed" value="true" />
+      <created>1789061433185</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789061433185</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
     <MESSAGE value="Lul Sos" />
     <MESSAGE value="Hab den crazy aaaaasss Prime Finder geaddet für Mr. Huhan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hab den crazy aaaaasss Prime Finder geaddet für Mr. Huhan" />
+    <MESSAGE value="Hab mysteriöse dinge gemacht hehe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hab mysteriöse dinge gemacht hehe" />
   </component>
 </project>
