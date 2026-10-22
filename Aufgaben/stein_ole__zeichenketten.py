@@ -107,6 +107,6 @@ def allowCapatalizedStart(s, i):
 # Aufgabe 9
 ## Kommt saaave noch
 
-print(aufAbAnzahl("aaabbbccc",3, True))
+print(aufAbAnzahl("aaabbbcccddd",3, True))
 
 
