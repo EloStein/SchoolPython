@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e53e40a8-22a8-49a5-8a73-d4ddd9152e25" name="Changes" comment="added stein_ole__kalender.py and stein_ole__kalender_minimalistisch.py">
-      <change afterPath="$PROJECT_DIR$/Aufgaben/stein_ole__zeichenketten.py" afterDir="false" />
+    <list default="true" id="e53e40a8-22a8-49a5-8a73-d4ddd9152e25" name="Changes" comment="Added and Edited stein_ole__zeichenketten.py">
+      <change afterPath="$PROJECT_DIR$/Aufgaben/2_zeichenketten/stein_ole__TestZeichenketten.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/18.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/0_mittelstufe/18.03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/stein_ole__kalender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/1_kalender/stein_ole__kalender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/stein_ole__kalender_minimalistisch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/1_kalender/stein_ole__kalender_minimalistisch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben/stein_ole__zeichenketten.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben/2_zeichenketten/stein_ole__zeichenketten.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testVerschiebung.executor": "Run",
+    "Python tests.Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testVertausche.executor": "Run",
+    "Python tests.Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testZaehle.executor": "Run",
+    "Python tests.Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testZaehle_a.executor": "Run",
+    "Python tests.Python tests for stein_ole__TestZeichenketten.stein_ole__TestZeichenketten.testVerschiebung.executor": "Run",
+    "Python tests.Python tests for stein_ole__TestZeichenketten.stein_ole__TestZeichenketten.testZaehle_a.executor": "Run",
+    "Python tests.Python tests in stein_ole__TestZeichenketten.py.executor": "Run",
     "Python.18.03.executor": "Run",
     "Python.Main.executor": "Run",
     "Python.OopTest.executor": "Run",
@@ -60,7 +71,7 @@
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/ole/Projekte/PycharmProjects/SchoolPython/Aufgaben",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "editor.preferences.folding",
     "settings.editor.splitter.proportion": "0.28134558"
   }
 }]]></component>
@@ -69,9 +80,108 @@
       <recent name="$PROJECT_DIR$/Aufgaben" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Aufgaben/2_zeichenketten" />
+      <recent name="$PROJECT_DIR$/Aufgaben/mittelstufe" />
+      <recent name="$PROJECT_DIR$/Aufgaben/kalender" />
       <recent name="$PROJECT_DIR$/Tests" />
       <recent name="$PROJECT_DIR$/Aufgaben" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testVertausche">
+    <configuration name="Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testVerschiebung" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Schule" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;stein_ole__TestZeichenketten.TestZeichenketten.testVerschiebung&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testVertausche" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Schule" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;stein_ole__TestZeichenketten.TestZeichenketten.testVertausche&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testZaehle" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Schule" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;stein_ole__TestZeichenketten.TestZeichenketten.testZaehle&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testZaehle_a" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Schule" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;stein_ole__TestZeichenketten.TestZeichenketten.testZaehle_a&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in stein_ole__TestZeichenketten.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Schule" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Aufgaben/2_zeichenketten/stein_ole__TestZeichenketten.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in stein_ole__TestZeichenketten.py" />
+        <item itemvalue="Python tests.Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testVertausche" />
+        <item itemvalue="Python tests.Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testZaehle" />
+        <item itemvalue="Python tests.Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testZaehle_a" />
+        <item itemvalue="Python tests.Python tests for stein_ole__TestZeichenketten.TestZeichenketten.testVerschiebung" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -153,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1789586743172</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added stein_ole__kalender.py and stein_ole__kalender_minimalistisch.py">
+      <option name="closed" value="true" />
+      <created>1792681799961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1792681799961</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added and Edited stein_ole__zeichenketten.py">
+      <option name="closed" value="true" />
+      <created>1792681865447</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1792681865447</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,6 +288,7 @@
     <MESSAGE value="Hab den crazy aaaaasss Prime Finder geaddet für Mr. Huhan" />
     <MESSAGE value="Hab mysteriöse dinge gemacht hehe" />
     <MESSAGE value="added stein_ole__kalender.py and stein_ole__kalender_minimalistisch.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added stein_ole__kalender.py and stein_ole__kalender_minimalistisch.py" />
+    <MESSAGE value="Added and Edited stein_ole__zeichenketten.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and Edited stein_ole__zeichenketten.py" />
   </component>
 </project>
