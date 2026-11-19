@@ -20,6 +20,9 @@ def isPrime(num):
     return True
 
 
+
+
+
 i = 0
 while i < 1000000:
     if isPrime(i) :
